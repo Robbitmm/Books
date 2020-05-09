@@ -1,0 +1,119 @@
+#text_input{
+    padding-top: 20px;
+
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_input{
+    width: 100%;
+
+    padding-top: 5px;
+
+    font-size: 20px;
+    text-align: center;
+
+    border: solid black 1px;
+}
+
+#status_area{
+    font-size: 20px;
+    text-align: center;
+}
+
+#submit_area{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit{
+    font-size: 20px;
+}
+
+/*O dobro do original*/
+@media (min-width: 480px) {
+    #text_input{
+        padding-top: 40px;
+    
+        width: 90%;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .text_input{
+        width: 100%;
+    
+        padding-top: 10px;
+    
+        font-size: 40px;
+        text-align: center;
+    
+        border: solid black 1px;
+    }
+    
+    .status{
+        width: 30px;
+        height: 30px;
+    }
+
+    #status_area{
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #submit_area{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #submit{
+        font-size: 40px;
+    }
+}
+
+/*2.8x maior*/
+@media (min-width: 1024px) {
+    #text_input{
+        padding-top: 56px;
+    
+        width: 80%;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .text_input{
+        width: 100%;
+    
+        padding-top: 15px;
+    
+        font-size: 40px;
+        text-align: center;
+    
+        border: solid black 1px;
+    }
+    
+    #status_area{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #submit_area{
+        width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #submit{
+        font-size: 40px;
+    }
+    
+}
