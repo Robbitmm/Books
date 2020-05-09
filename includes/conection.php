@@ -1,8 +1,8 @@
 <?php
-    $serverName = "../books.sql";
-    $userName = "root";
-    $password = "";
-    $bdName = "livros";
+    $serverName = "localhost";
+    $userName = "watchers";
+    $password = "@Watchers2019db";
+    $bdName = "watchers_livros";
 
     $conn = new mysqli($serverName, $userName, $password, $bdName);
 
