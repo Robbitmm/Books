@@ -1,5 +1,5 @@
 <?php
-    $serverName = "localhost";
+    $serverName = "../books.sql";
     $userName = "root";
     $password = "";
     $bdName = "livros";
